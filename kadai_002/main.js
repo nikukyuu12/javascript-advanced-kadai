@@ -154,7 +154,7 @@ const timer = () => {
       setTimeout(() =>{      //【課題】カウント0になったら、「ﾀｲﾑｱｯﾌﾟ！」を表示させ、ダイアログを10ﾐﾘ秒後に実行
       // clearInterval(id);  //setInterval(id)処理を停止させる
       gameOver(id);  //gameOver関数を実行
-      },100);
+      },10);
       wrap.innerHTML = 'タイムアップ！';  
       };
   
